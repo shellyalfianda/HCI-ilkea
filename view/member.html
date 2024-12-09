@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/member.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Member</title>
+</head>
+<body>
+    <nav class="container">
+        <ul>
+            <img class="img1" src="../gambar/Logo.png" alt="">
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./member.html">Member</a></li>
+            <li><a href="./aboutus.html">About Us</a></li>
+            <li><a href="./contactus.html">Contact Us</a></li>
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <ii class="fa fa-cart-arrow-down" aria-hidden="true"></ii>
+            <ii class="fa fa-bars" aria-hidden="true"></ii>
+        </ul>
+    </nav>
+
+    <div class="grid-container">
+
+        <div class="grid-item">
+            <div class="text-center">
+                <br>
+                <h3>Register Member</h3>
+                <div class="content">
+                    <form>
+                        <div class="form-class">
+                            <input type="text"class="inputin" id="username"name="username" placeholder="&nbsp &#xf007; &nbsp Username" value="">
+                        </div>
+                        <br>
+                            
+                        <input type="radio" id="formale" name="gender" value="formale">
+                        <label for="formale"><iii class="fa fa-mars"></iii> Male</label>
+                        <input type="radio" id="forfemale" name="gender" value="forfemale"> 
+                        <label for="forfemale"><iii class="fa fa-venus"></iii> Female</label>
+
+                        <div class="form-class">
+                            <input type="text"class="inputin-m" id="city"name="city" placeholder="&nbsp &#xf015; &nbsp City">
+                        </div>
+                        <div class="form-class">
+                            <input type="email"class="inputin-m" id="email"name="email" placeholder="&nbsp &#xf01c; &nbsp Email">
+                        </div>
+                        <div class="form-class">
+                            <input type="password"class="inputin-m" id="pwd"name="pwd" placeholder="&nbsp &#xf023; &nbsp Password">
+                        </div>
+                        <div class="form-class">
+                            <input type="password"class="inputin-m" id="conpwd"name="Conpwd" placeholder="&nbsp &#xf023; &nbsp Confirm Password">
+                        </div>
+                        <br>
+                        <div class="form-class">
+                            <input type="checkbox" class="check" id="term"name="term">
+                            <label for="term" id="termText">I agree with the Terms & Condition</label>
+                        </div>
+                        <input type="submit" value="Register" id="subBtn" onclick="validateData()">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item">
+            <div class="bg-img">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2023 ILKEA</p>
+    </div>
+
+<script src="../js/member.js"></script>
+</body>
+</html>

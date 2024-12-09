@@ -1,0 +1,81 @@
+.grid-container {
+    justify-content: center;
+    display: grid;
+    margin-top: 68px;
+    grid-template-columns: auto autO;  
+    margin-bottom: 70px;
+}
+
+.grid-item{
+    border: 2px solid  rgb(255, 255, 255);
+    border-radius: 1rem;
+    width: 500px;
+    height:500px;
+    
+}
+
+.form-btn{
+    border-radius: 2rem;
+}
+.text-center{
+    border-radius: 1rem;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    background-size: cover;
+    background-color:rgb(227, 220, 210);
+}
+.content{
+    position: absolute;
+}
+.form-class{
+    display:flex;
+
+}
+.inputin{
+    border-radius: 2rem;
+    width:300px;
+    height:36px;
+    margin-left: 100px;
+    font-family: 'FontAwesome';
+    color: black;
+}
+.inputin-m{
+    border-radius: 2rem;
+    width:300px;
+    height:36px;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: 'FontAwesome';
+    color: black;
+}
+.input-radio{
+    width:100px;
+    margin-top: 20px;
+    color: black;
+}
+.bg-img{
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    border-radius: 1rem;
+    background-image: url('../gambar/MEMBER.png');
+
+}
+
+#subBtn{
+    margin-left: 90px;
+    margin-top: 15px;
+    border-radius: 2rem;
+    background-color: burlywood;
+    color: white;
+    width: 120px;
+    height: 30px;
+}
+.check{
+    margin-left: 100px;
+}
+
+@media screen and (max-width: 800px){
+
+}

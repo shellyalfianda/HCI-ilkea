@@ -1,0 +1,144 @@
+.btn-group button {
+    justify-content: center;
+    border: 2px solid rgb(7, 7, 7); 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; 
+}
+  
+  /* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+    align-items: center;
+}
+
+.btn-group{
+    display:flex;
+    justify-content:center ;
+}
+  
+
+.btn1{
+    background-color: rgb(145, 126, 96);
+    color: white;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.btn2{
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+  .btn-group button:hover {
+    background-color: rgb(124, 104, 71);
+    color: white;
+}
+
+.img-contain{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+    row-gap: 1.5 rem;
+    width: 98%;
+    margin-left: 1%;
+}
+
+.img-card{
+    display: flex;
+    flex-direction: column;
+    width: 9.5 rem;
+    background-color:rgb(227, 220, 210);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 1px 1px 32px rgba(222, 220, 220, 0.8);
+    transition: all 0.2s ease-in-out;
+}
+
+.img-card:hover {
+    box-shadow: 1px 1px 32px rgba(5, 5, 5, 0.38);
+}
+
+.img-details h4{
+    font-weight: 700;
+    font-family:Verdana;
+}
+
+.img-details{
+    text-align: center;
+    margin-top: 0.25rem;
+    padding: 0.25rem;
+}
+
+.product-container{
+    width: 100%;
+    display: flex;
+}
+
+.textb{
+    text-align:justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.textc{
+    text-align:justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 800;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: -5%;
+}
+
+.textd{
+    margin-top: 30px;
+}
+
+.btna{
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    background-color: rgb(81, 68, 47);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.btna:hover {
+    opacity: 0.7;
+}
+
+.btnz {
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+    font-family: Verdana;
+}
+
+.btnx{
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+    font-family: Verdana;
+}
+
+@media screen and (max-width: 800px){
+
+}

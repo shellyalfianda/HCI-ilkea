@@ -1,0 +1,86 @@
+.text3{
+    font-family: Anton;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.text1{
+    color: rgb(3, 3, 3);
+}
+
+.text2{
+    color:rgb(206, 170, 112);
+    font-size: 24px;
+    font-family: lobster;
+    font-weight: bold;
+}
+
+.text4{
+    margin-top: -1%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family:'Comic Sans MS';
+    font-weight: 200;
+    font-size: small;
+}
+
+.containa{
+    background-color: rgb(187, 167, 140);
+    padding: 10px;
+}
+
+.img-contain{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+    row-gap: 1.5 rem;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.img-card{
+    display: flex;
+    flex-direction: column;
+    width: 9.5 rem;
+    background-color:rgb(227, 220, 210);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 1px 1px 32px rgba(11, 11, 11, 0.8);
+    transition: all 0.2s ease-in-out;
+}
+
+.img-card:hover {
+    box-shadow: 1px 1px 32px rgba(255, 254, 254, 0.614);
+}
+
+.img-details h4{
+    font-weight: 700;
+    font-family:Verdana;
+}
+
+.img-details{
+    text-align: center;
+    margin-top: 0.25rem;
+    padding: 0.25rem;
+}
+
+.premium-container{
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.btnz{
+    font-size: larger;
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 5px;
+    font-family: 'Times New Roman';
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+@media screen and (max-width: 800px){
+
+}
